@@ -1,265 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adebiyi Thompson — Web Designer</title>
-  <meta name="description" content="Adebiyi Thompson is a web designer in Lagos crafting fast, modern websites for businesses worldwide. Available for select projects.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><circle cx='12' cy='12' r='10' fill='%23d7f74f'/></svg>">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adebiyi Thompson, Web Designer and App Developer in Lagos</title>
+<meta name="description" content="Adebiyi Thompson is a web designer and app developer in Lagos, Nigeria. 11 websites shipped, 3 mobile apps built. Design, code, and launch handled by one person.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1a17'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='bold' fill='white' text-anchor='middle'%3EAT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
-<!-- Preloader -->
-<div id="preloader" aria-hidden="true">
-  <div class="pl-logo"><span class="pl-mark"></span>Adebiyi Thompson</div>
-</div>
-
-<!-- Cursor + hover reveal -->
-<div id="cursor" aria-hidden="true"><span class="cursor-label"></span></div>
-<div id="hover-reveal" aria-hidden="true"><img alt=""></div>
-
-<!-- Nav -->
-<nav class="site-nav" data-hero-chrome aria-label="Main navigation">
-  <a href="index.html" class="brand"><i></i>Adebiyi Thompson</a>
-  <div class="links" id="navLinks">
-    <a href="index.html" class="nl active">Home</a>
-    <a href="studio.html" class="nl">Studio</a>
-    <a href="works.html" class="nl">Works</a>
-      </div>
-  <a href="index.html#contact" class="nav-cta">Let's talk</a>
-  <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
-</nav>
-
-<div id="page">
-
-<!-- ============ HERO ============ -->
-<header class="hero">
-  <div class="hero-bg" data-hero-parallax>
-    <img src="assets/img/hero-bg-1.webp" alt="">
-    <img src="assets/img/hero-bg-2.webp" alt="">
-    <img src="assets/img/hero-bg-3.webp" alt="">
-  </div>
-  <div class="container hero-inner">
-    <div class="hero-meta">
-      <div class="hero-thumbs">
-        <div class="thumb" data-hero-thumb><img src="assets/img/hero-thumb-1.webp" alt="Selected work thumbnail"></div>
-        <div class="thumb" data-hero-thumb><img src="assets/img/hero-thumb-2.webp" alt="Selected work thumbnail"></div>
-        <div class="thumb" data-hero-thumb><img src="assets/img/hero-thumb-3.webp" alt="Selected work thumbnail"></div>
-      </div>
-      <div class="hero-side" data-hero-chrome>Lagos, Nigeria<br>Portfolio 2026</div>
+<header class="site-header" id="siteHeader">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html"><span class="brand-mark">AT</span>Adebiyi Thompson</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-menu" id="navMenu">
+      <a class="nav-link active" href="index.html">Home</a>
+      <a class="nav-link" href="index.html#apps">Apps</a>
+      <a class="nav-link" href="index.html#services">Services</a>
+      <a class="nav-link" href="works.html">Work</a>
+      <a class="nav-link" href="studio.html">Studio</a>
+      <a class="btn btn-small" href="mailto:hello@adebiyithompson.com">Get in touch</a>
     </div>
-    <h1 class="display h-xl hero-title" data-hero-title>Web Designer</h1>
-    <p class="lead" data-hero-chrome style="max-width:52ch;margin-bottom:56px">I design and build fast, modern websites for businesses that want to look established and get found on Google. Currently taking on select projects.</p>
-  </div>
-  <div class="marquee" data-hero-chrome aria-hidden="true">
-    <div class="marquee-track" data-marquee data-speed="26">
-      <span>Available for work</span><span>Available for work</span><span>Available for work</span><span>Available for work</span><span>Available for work</span><span>Available for work</span><span>Available for work</span><span>Available for work</span>
-    </div>
-  </div>
+  </nav>
 </header>
 
-<!-- ============ LOGOS ============ -->
-<section class="section">
-  <div class="container">
-    <div class="kicker" data-reveal>Selected work</div>
-    <h2 class="display h-lg" data-reveal>Recent projects<br>across 10 industries</h2>
-    <p class="lead" data-highlight style="margin-top:28px;max-width:56ch">Recent work spans SEO agencies, churches, schools, clinics and local businesses. Every project is designed and built by hand: mobile-first, fast, and shipped on time.</p>
-    <div class="logo-strip">
-      <div class="logo-card" data-reveal>xylvar</div>
-      <div class="logo-card" data-reveal data-delay="0.08">Movaldem</div>
-      <div class="logo-card" data-reveal data-delay="0.16">Esriltor</div>
-      <div class="logo-card" data-reveal data-delay="0.24">Premier HVAC</div>
-      <div class="logo-card" data-reveal>Bomorn Haven</div>
-      <div class="logo-card" data-reveal data-delay="0.08">ZoeSmile</div>
-      <div class="logo-card" data-reveal data-delay="0.16">Litmern</div>
-      <div class="logo-card" data-reveal data-delay="0.24">VoltEdge</div>
+<main id="main">
+  <!-- Hero -->
+  <section class="hero container">
+    <p class="kicker reveal">Web Designer &amp; App Developer, Lagos Nigeria</p>
+    <h1 class="reveal">I design and build <span class="accent-word">websites</span> and <span class="accent-word">apps</span> people enjoy using.</h1>
+    <p class="lede reveal">I&rsquo;m Adebiyi Thompson. I take projects from first sketch to launch: design, code, and deployment handled by one person, so nothing gets lost between handoffs.</p>
+    <div class="hero-actions reveal">
+      <a class="btn" href="works.html">See my work</a>
+      <a class="btn btn-ghost" href="mailto:hello@adebiyithompson.com">Get in touch</a>
     </div>
-  </div>
-</section>
+    <div class="hero-meta reveal">
+      <span><span class="status-dot" aria-hidden="true"></span><strong>Available</strong> for new projects</span>
+      <span>Based in <strong>Lagos</strong>, working worldwide</span>
+      <span><strong>11</strong> websites shipped</span>
+    </div>
+  </section>
 
-<!-- ============ INTRO ============ -->
-<section class="section" style="padding-top:40px">
-  <div class="container">
-    <div class="kicker" data-reveal>Manifesto</div>
-    <p class="intro-statement" data-highlight>Good design is not decoration. It is how a business earns trust in the first five seconds, and I build every page to earn it.</p>
-    <p class="lead" data-cascade style="margin-top:36px;max-width:62ch">Every project starts from the same question: what should this do for the business? From that answer I build the site: structure, copy, design and code, until it is fast, clear and unmistakably alive.</p>
-  </div>
-</section>
-
-<!-- ============ SERVICES CUBE ============ -->
-<section data-cube-pin style="background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
-  <div class="cube-pin">
+  <!-- Project strip -->
+  <div class="strip" aria-label="Selected project names">
     <div class="container">
-      <div class="kicker" style="justify-content:center;display:flex">Capabilities: scroll to rotate</div>
-      <div class="cube-stage">
-        <div class="cube" data-cube>
-          <div class="cube-face">
-            <img src="assets/img/service-strategy.webp" alt="">
-            <div class="face-body"><div class="face-num">01 / Web Design</div><h3>Web Design</h3><p>Custom, mobile-first websites designed to convert visitors into customers. No templates, no page builders, just fast hand-built pages.</p></div>
-          </div>
-          <div class="cube-face">
-            <img src="assets/img/service-identity.webp" alt="">
-            <div class="face-body"><div class="face-num">02 / Branding</div><h3>Branding</h3><p>Identities with a point of view. Logos, color systems and art direction that make small businesses look established.</p></div>
-          </div>
-          <div class="cube-face">
-            <img src="assets/img/service-motion.webp" alt="">
-            <div class="face-body"><div class="face-num">03 / Ideation</div><h3>Ideation</h3><p>Naming, concepts and creative direction. The thinking before the pixels, so the pixels have something to say.</p></div>
-          </div>
-          <div class="cube-face">
-            <img src="assets/img/service-design.webp" alt="">
-            <div class="face-body"><div class="face-num">04 / SEO</div><h3>SEO</h3><p>Technical audits, on-page fixes and monthly retainers backed by live SERP data. Plain-English reporting, no vanity metrics.</p></div>
-          </div>
+      <div class="strip-inner">
+        <span class="strip-label">Recent work</span>
+        <span class="strip-item">xylvar</span>
+        <span class="strip-item">Movaldem</span>
+        <span class="strip-item">Marksheet</span>
+        <span class="strip-item">BellePal</span>
+        <span class="strip-item">OMH Maternity App</span>
+        <span class="strip-item">Esriltor</span>
+        <span class="strip-item">ZoeSmile</span>
+        <span class="strip-item">VoltEdge</span>
+        <span class="strip-item">Litmern Consults</span>
+        <span class="strip-item">Premier HVAC</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- About + stats -->
+  <section class="section container" id="about">
+    <div class="about-grid">
+      <div class="about-copy">
+        <p class="kicker reveal">About</p>
+        <div class="section-head reveal">
+          <h2>One person, from sketch to launch.</h2>
         </div>
+        <p class="reveal">I&rsquo;m a web designer and app developer based in <strong>Lagos, Nigeria</strong>. I design and build websites and Android apps for businesses, churches, clinics, and schools.</p>
+        <p class="reveal">I work solo on purpose. You speak directly with the person designing the screens and writing the code, which keeps projects fast and decisions clear. Everything here was designed and built by hand, tested on real phones, and launched to a live address.</p>
       </div>
-      <div class="cube-hint">Keep scrolling</div>
+      <div class="stats">
+        <div class="stat reveal"><div class="stat-num">11</div><div class="stat-label">Websites designed and shipped</div></div>
+        <div class="stat reveal"><div class="stat-num">3</div><div class="stat-label">Mobile apps designed and built</div></div>
+        <div class="stat reveal"><div class="stat-num">94<span>+</span></div><div class="stat-label">Pages built across all projects</div></div>
+        <div class="stat reveal"><div class="stat-num">10</div><div class="stat-label">Industries served, from clinics to churches</div></div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ============ WORKS ============ -->
-<section class="section" id="works">
+  <!-- Services -->
+  <section class="section container" id="services" style="padding-top:0">
+    <div class="section-head reveal">
+      <p class="kicker">Services</p>
+      <h2>What I can do for you.</h2>
+      <p>Five disciplines, one pair of hands. You always know who is doing the work.</p>
+    </div>
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></div>
+        <p class="service-num">01</p>
+        <h3>Web Design</h3>
+        <p>Responsive websites designed and built to load fast, read well on any screen, and turn visitors into enquiries.</p>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
+        <p class="service-num">02</p>
+        <h3>App Development</h3>
+        <p>Android apps with offline-first data and clean interfaces, shipped with a web dashboard wherever the team needs one.</p>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></div>
+        <p class="service-num">03</p>
+        <h3>Brand Identity</h3>
+        <p>Logos, color, and type systems that give a business one consistent look across its site, app, and printed material.</p>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.8.7 1 1.5 1 2.5h6c0-1 .2-1.8 1-2.5A6 6 0 0 0 12 3z"/></svg></div>
+        <p class="service-num">04</p>
+        <h3>Ideation</h3>
+        <p>Working out what a product should do before a single screen is drawn, so the build starts from a clear, agreed plan.</p>
+      </article>
+      <article class="service-card reveal">
+        <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
+        <p class="service-num">05</p>
+        <h3>SEO</h3>
+        <p>Technical setup, page structure, and local search basics that help the right people find the site on Google.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Apps showcase -->
+  <section class="section apps" id="apps">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="kicker">Mobile apps</p>
+        <h2>Apps used by real people.</h2>
+        <p>Three apps I designed and built end to end: one for a maternity clinic, one for a church, one for expectant mothers.</p>
+      </div>
+      <div class="apps-grid">
+        <article class="app-card reveal">
+          <div class="app-top">
+            <div class="app-icon" style="background:linear-gradient(135deg,#0e7c66,#14b88a)" aria-hidden="true">OM</div>
+            <span class="app-tag">Android app</span>
+          </div>
+          <h3>OMH Maternity App</h3>
+          <p>Staff app for Oluwatodupefun Maternity Home. An offline-capable Android app plus web dashboard: patient and antenatal records, labour records, a staff duty roster with lateness tracking, and AI-powered drug information and clinical briefs.</p>
+          <p class="app-stack"><strong>Built with:</strong> Next.js, Postgres, Capacitor</p>
+        </article>
+        <article class="app-card reveal">
+          <div class="app-top">
+            <div class="app-icon" style="background:linear-gradient(135deg,#7c2d12,#ea580c)" aria-hidden="true">MR</div>
+            <span class="app-tag">Android app</span>
+          </div>
+          <h3>Movaldem Radio App</h3>
+          <p>App for Mountain of Victory at the Last Day Evangelical Ministry, a Lagos church. Live online radio streaming, a daily Bible quiz with leaderboards, push notifications for church announcements, and secure member login.</p>
+          <p class="app-stack"><strong>Built with:</strong> native-feel web stack, Firebase push</p>
+        </article>
+        <article class="app-card reveal">
+          <div class="app-top">
+            <div class="app-icon" style="background:linear-gradient(135deg,#9d2c5c,#ec4899)" aria-hidden="true">BP</div>
+            <span class="app-tag">Mobile app</span>
+          </div>
+          <h3>BellePal</h3>
+          <p>A Nigeria-first pregnancy companion for expectant mothers. The offline-first core is free forever, built on a 221-topic maternal health knowledge base reviewed with 12 clinicians. The online layer adds AI chat and report scanning.</p>
+          <p class="app-stack"><strong>Built with:</strong> Expo, Node.js, Postgres</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected work -->
+  <section class="section container" id="work">
+    <div class="section-head reveal">
+      <p class="kicker">Selected work</p>
+      <h2>Websites, live on the internet.</h2>
+      <p>A few of the eleven sites I have shipped. Every link opens the real, working site.</p>
+    </div>
+    <div class="work-grid">
+      <article class="work-card reveal">
+        <div class="work-visual" style="background:linear-gradient(135deg,#1e3a8a,#3b82f6)" aria-hidden="true">X</div>
+        <div class="work-body">
+          <div class="work-top"><h3>xylvar</h3><span class="work-kind">Personal project</span></div>
+          <p>Marketing site for an SEO agency: services, process pages, and sample audit reports.</p>
+          <a class="work-link" href="https://xylvar.pages.dev" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+        </div>
+      </article>
+      <article class="work-card reveal">
+        <div class="work-visual" style="background:linear-gradient(135deg,#713f12,#ca8a04)" aria-hidden="true">M</div>
+        <div class="work-body">
+          <div class="work-top"><h3>Movaldem</h3><span class="work-kind">Client work</span></div>
+          <p>Church website with a teaching library, daily Bible quiz, and online giving.</p>
+          <a class="work-link" href="https://movaldem.teta.dpdns.org" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+        </div>
+      </article>
+      <article class="work-card reveal">
+        <div class="work-visual" style="background:linear-gradient(135deg,#0f766e,#2dd4bf)" aria-hidden="true">Z</div>
+        <div class="work-body">
+          <div class="work-top"><h3>ZoeSmile</h3><span class="work-kind">Personal project</span></div>
+          <p>Dental clinic website with services, booking flow, and patient information.</p>
+          <a class="work-link" href="https://zoesmile.teta.dpdns.org" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+        </div>
+      </article>
+      <article class="work-card reveal">
+        <div class="work-visual" style="background:linear-gradient(135deg,#4c1d95,#8b5cf6)" aria-hidden="true">Mk</div>
+        <div class="work-body">
+          <div class="work-top"><h3>Marksheet</h3><span class="work-kind">My product</span></div>
+          <p>School management platform: CBT exams, results, fees, and a parent app.</p>
+          <a class="work-link" href="https://marksheet.top" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+        </div>
+      </article>
+      <article class="work-card reveal">
+        <div class="work-visual" style="background:linear-gradient(135deg,#7c2d12,#f59e0b)" aria-hidden="true">E</div>
+        <div class="work-body">
+          <div class="work-top"><h3>Esriltor</h3><span class="work-kind">Concept demo</span></div>
+          <p>Estate agency site: property listings, detail pages, and a selling guide.</p>
+          <a class="work-link" href="https://julieellis1.github.io/portfolio-demos/esriltor/" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+        </div>
+      </article>
+      <article class="work-card reveal">
+        <div class="work-visual" style="background:linear-gradient(135deg,#111827,#4b5563)" aria-hidden="true">V</div>
+        <div class="work-body">
+          <div class="work-top"><h3>VoltEdge</h3><span class="work-kind">Concept demo</span></div>
+          <p>Electronics store demo: 12 products, cart, wishlist, and a working checkout flow.</p>
+          <a class="work-link" href="https://julieellis1.github.io/portfolio-demos/voltedge/" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
+        </div>
+      </article>
+    </div>
+    <div class="work-more reveal">
+      <a class="btn btn-ghost" href="works.html">See all 11 projects</a>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="section container" id="process" style="padding-top:0">
+    <div class="section-head reveal">
+      <p class="kicker">Process</p>
+      <h2>How I work.</h2>
+      <p>Four steps, no surprises. You always know what happens next.</p>
+    </div>
+    <div class="process-grid">
+      <article class="step reveal">
+        <p class="step-num">STEP 01</p>
+        <h3>Discover</h3>
+        <p>We talk through what the site or app needs to do, who it is for, and what success looks like.</p>
+      </article>
+      <article class="step reveal">
+        <p class="step-num">STEP 02</p>
+        <h3>Design</h3>
+        <p>I plan the structure, then design every screen: layout, type, color, and content, reviewed with you.</p>
+      </article>
+      <article class="step reveal">
+        <p class="step-num">STEP 03</p>
+        <h3>Build</h3>
+        <p>I write the code, test on phones and desktops, and fix what breaks before you ever see it.</p>
+      </article>
+      <article class="step reveal">
+        <p class="step-num">STEP 04</p>
+        <h3>Launch</h3>
+        <p>We go live together. I stay around after launch for fixes, updates, and small improvements.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta">
+    <div class="container">
+      <h2 class="reveal">Have a project in mind?</h2>
+      <p class="reveal">Tell me what you want to build: a website, an app, or both. I reply to every serious enquiry within two working days.</p>
+      <div class="cta-actions reveal">
+        <a class="btn btn-light" href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
   <div class="container">
-    <div class="kicker" data-reveal>Selected works</div>
-    <h2 class="display h-lg" data-reveal>Work that<br>earns trust</h2>
-
-    <div style="height:90px"></div>
-
-    <article class="work-feature">
-      <div class="work-media" data-deskew data-cursor="View case">
-        <img src="assets/img/work-nebula.webp" alt="VoltEdge e-commerce project">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><span class="brand-mark">AT</span>Adebiyi Thompson</a>
+        <p>Web designer and app developer in Lagos, Nigeria. Design, code, and launch by one person.</p>
       </div>
-      <div class="work-words" data-marquee-scrub aria-hidden="true">VoltEdge — VoltEdge — VoltEdge —&nbsp;</div>
-      <div class="work-meta" data-reveal>
-        <div class="tags"><span>E-commerce</span><span>Web Design</span><span>2026</span></div>
-        <span>A 29-page electronics store with cart, checkout and wishlist, built from scratch.</span>
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="index.html#apps">Apps</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="works.html">Work</a></li>
+          <li><a href="studio.html">Studio</a></li>
+        </ul>
       </div>
-    </article>
-
-    <article class="work-feature">
-      <div class="work-media" data-deskew data-cursor="View case">
-        <img src="assets/img/work-pulse.webp" alt="Esriltor estate agency project">
-      </div>
-      <div class="work-words solid" data-marquee-scrub data-dir="right" aria-hidden="true">Esriltor — Esriltor — Esriltor —&nbsp;</div>
-      <div class="work-meta" data-reveal>
-        <div class="tags"><span>Estate Agency</span><span>Web Design</span><span>2026</span></div>
-        <span>A 19-page estate agency site with listings, filters and viewing forms.</span>
-      </div>
-    </article>
-
-    <article class="work-feature">
-      <div class="work-media" data-deskew data-cursor="View case">
-        <img src="assets/img/work-terra.webp" alt="xylvar SEO agency project">
-      </div>
-      <div class="work-words" data-marquee-scrub aria-hidden="true">xylvar — xylvar — xylvar —&nbsp;</div>
-      <div class="work-meta" data-reveal>
-        <div class="tags"><span>SEO Agency</span><span>Branding</span><span>2026</span></div>
-        <span>A light, confident marketing site for an SEO agency, with honest copy throughout.</span>
-      </div>
-    </article>
-
-    <div style="text-align:center;margin-top:80px" data-reveal>
-      <a href="works.html" class="btn">All works <span class="arr">↗</span></a>
-    </div>
-  </div>
-</section>
-
-<!-- ============ STATS ============ -->
-<section class="section" style="background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
-  <div class="container">
-    <div class="kicker" data-reveal>By the numbers</div>
-    <h2 class="display h-lg" data-reveal>The work<br>so far</h2>
-    <div class="stats-grid">
-      <div class="stat-card" data-reveal><div class="stat-num" data-count="11"></div><p>Live projects shipped across web, brand and SEO.</p></div>
-      <div class="stat-card" data-reveal data-delay="0.1"><div class="stat-num" data-count="94"></div><p>Pages designed and built, mobile-first.</p></div>
-      <div class="stat-card" data-reveal data-delay="0.2"><div class="stat-num" data-count="10"></div><p>Industries covered, from churches to clinics.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ FAQ ============ -->
-<section class="section" style="padding-top:40px">
-  <div class="container">
-    <div class="kicker" data-reveal style="justify-content:center;display:flex">FAQ</div>
-    <h2 class="display h-lg" data-reveal style="text-align:center">Good<br>questions</h2>
-    <div style="height:56px"></div>
-    <div class="faq-list">
-      <div class="faq-item" data-reveal>
-        <button class="faq-q">What does a typical project timeline look like?<span class="plus"></span></button>
-        <div class="faq-a"><p>Most websites run 3 to 6 weeks: one week of direction and structure, two to three weeks of design and build, then testing and launch. Larger platforms are scoped individually.</p></div>
-      </div>
-      <div class="faq-item" data-reveal>
-        <button class="faq-q">Can you redesign my existing website?<span class="plus"></span></button>
-        <div class="faq-a"><p>Yes. I can rebuild your current site with stronger structure, faster pages and clearer copy, without losing what already works.</p></div>
-      </div>
-      <div class="faq-item" data-reveal>
-        <button class="faq-q">Will my website show up on Google?<span class="plus"></span></button>
-        <div class="faq-a"><p>Every build ships with the SEO fundamentals done right: clean structure, fast pages, proper meta and semantic HTML. Monthly SEO retainers are available if you want ongoing growth.</p></div>
-      </div>
-      <div class="faq-item" data-reveal>
-        <button class="faq-q">Do you build e-commerce stores?<span class="plus"></span></button>
-        <div class="faq-a"><p>Yes. Product catalogs, carts, checkout flows and wishlists, all custom-built and mobile-first. See VoltEdge in the works archive for a full example.</p></div>
-      </div>
-      <div class="faq-item" data-reveal>
-        <button class="faq-q">Where are you based, and does it matter?<span class="plus"></span></button>
-        <div class="faq-a"><p>Lagos, Nigeria, working worldwide across time zones. Async-first process with weekly live reviews. It hasn't mattered yet.</p></div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a></li>
+          <li><a href="index.html#process">How I work</a></li>
+        </ul>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- ============ CTA ============ -->
-<section class="cta" id="contact">
-  <div class="cta-grid" aria-hidden="true">
-    <img src="assets/img/work-nebula.webp" alt=""><img src="assets/img/work-pulse.webp" alt=""><img src="assets/img/work-terra.webp" alt=""><img src="assets/img/work-flux.webp" alt="">
-  </div>
-  <div class="cta-blur" id="ctaBlur" aria-hidden="true"></div>
-  <div class="container cta-inner">
-    <div class="kicker" data-reveal style="justify-content:center;display:flex">Say hello</div>
-    <h2 class="display cta-title" data-wave>Let's build yours</h2>
-    <p class="lead" data-reveal style="margin:0 auto 40px;text-align:center">Have a project in mind? Tell me what it should do for your business.</p>
-    <div data-reveal><a href="mailto:hello@adebiyithompson.com" class="btn btn-accent">hello@adebiyithompson.com <span class="arr">↗</span></a></div>
-  </div>
-</section>
-
-<!-- ============ FOOTER ============ -->
-<footer>
-  <div class="container">
-    <div class="f-grid">
-      <div class="f-brand">
-        <a href="index.html" style="font-weight:800;font-size:22px;letter-spacing:-.02em"><span style="display:inline-block;width:11px;height:11px;border-radius:50%;background:var(--accent);margin-right:8px"></span>Adebiyi Thompson</a>
-        <p>Fast, modern websites for businesses that want to look established. Designed and built by hand.</p>
-        <a href="mailto:hello@adebiyithompson.com" class="btn btn-ghost">Get in touch</a>
-      </div>
-      <div class="f-col">
-        <h5>Menu</h5>
-        <ul><li><a href="index.html">Home</a></li><li><a href="studio.html">Studio</a></li><li><a href="works.html">Works</a></li></ul>
-      </div>
-      <div class="f-col">
-        <h5>Socials</h5>
-        <ul><li><a href="#">Twitter / X</a></li><li><a href="#">Instagram</a></li><li><a href="#">Dribbble</a></li><li><a href="#">LinkedIn</a></li></ul>
-      </div>
-      <div class="f-col">
-        <h5>Contact</h5>
-        <ul><li><a href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a></li><li><a href="#">Lagos, Nigeria</a></li><li><a href="#">Working worldwide</a></li></ul>
-      </div>
-    </div>
-    <div class="f-bottom">
-      <span>© <span id="year">2026</span> Adebiyi Thompson. All rights reserved.</span>
-      <span>Designed and built by hand.</span>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2026</span> Adebiyi Thompson. All rights reserved.</span>
+      <span>Designed and built by hand in Lagos, Nigeria.</span>
     </div>
   </div>
 </footer>
 
-</div><!-- /#page -->
-
-<noscript><style>[data-reveal]{opacity:1!important}.mask>.ch{transform:none!important}#preloader{display:none}</style></noscript>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
