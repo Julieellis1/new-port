@@ -3,148 +3,105 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Studio | Adebiyi Thompson, Web Designer and App Developer</title>
-<meta name="description" content="About Adebiyi Thompson: a one-person studio in Lagos, Nigeria designing and building websites and mobile apps.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1a17'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='bold' fill='white' text-anchor='middle'%3EAT%3C/text%3E%3C/svg%3E">
+<title>Studio: Adebiyi Thompson</title>
+<meta name="description" content="About Adebiyi Thompson: independent web designer and app developer in Lagos, Nigeria.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/portrait.jpg">
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
 
-<header class="site-header" id="siteHeader">
-  <nav class="nav container" aria-label="Main navigation">
-    <a class="brand" href="index.html"><span class="brand-mark">AT</span>Adebiyi Thompson</a>
-    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
-    <div class="nav-menu" id="navMenu">
-      <a class="nav-link" href="index.html">Home</a>
-      <a class="nav-link" href="index.html#apps">Apps</a>
-      <a class="nav-link" href="index.html#services">Services</a>
-      <a class="nav-link" href="works.html">Work</a>
-      <a class="nav-link active" href="studio.html">Studio</a>
-      <a class="btn btn-small" href="mailto:hello@adebiyithompson.com">Get in touch</a>
-    </div>
-  </nav>
+<nav class="nav" aria-label="Main navigation">
+  <a class="brand" href="index.html" aria-label="Adebiyi Thompson home"><span class="brand-mark"></span>AT.</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="works.html">Work</a></li>
+    <li><a href="studio.html" class="active">Studio</a></li>
+  </ul>
+  <a class="btn" href="mailto:hello@adebiyithompson.com">Get in touch</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="works.html">Work</a>
+  <a href="studio.html">Studio</a>
+  <a class="btn" href="mailto:hello@adebiyithompson.com">Get in touch</a>
+</div>
+
+<header class="page-hero">
+  <div class="wrap">
+    <h1>Studio.</h1>
+    <p class="sec-sub">One person, full stack: design, code and care in every project.</p>
+  </div>
 </header>
 
-<main id="main">
-  <section class="page-hero container">
-    <p class="kicker reveal">Studio</p>
-    <h1 class="reveal">A one-person studio in Lagos.</h1>
-    <p class="lede reveal">No account managers, no handoffs, no telephone game. You talk to the person who designs it and writes the code.</p>
-  </section>
+<section style="padding-top:40px" aria-label="Bio">
+  <div class="wrap">
+    <p class="bio-lead reveal">I'm Adebiyi Thompson, an independent web designer and app developer working from Lagos, Nigeria. I help businesses, churches, clinics and creators show up online with websites and apps that are fast, clear and built to last.</p>
+  </div>
+</section>
 
-  <section class="section container" style="padding-top:40px">
-    <div class="studio-grid">
-      <div class="studio-copy">
-        <div class="section-head reveal">
-          <h2>Who I am.</h2>
-        </div>
-        <p class="reveal">I&rsquo;m <strong>Adebiyi Thompson</strong>, a web designer and app developer based in Lagos, Nigeria. I design and build websites and Android apps for businesses, churches, clinics, and schools, and I work with clients anywhere in the world.</p>
-        <p class="reveal">My background is hands-on: I have shipped eleven websites and three mobile apps, from a maternity clinic&rsquo;s staff app to a church&rsquo;s online radio app to a pregnancy companion used by expectant mothers. I handle the whole arc: figuring out what to build, designing it, writing the code, and launching it.</p>
-        <p class="reveal">Working with me is simple. One person owns the project from start to finish, so feedback goes straight into the work and nothing gets lost between a designer, a developer, and a manager who never met you.</p>
-        <ul class="check-list reveal">
-          <li><span class="check" aria-hidden="true">&#10003;</span><span><strong>Design and code together.</strong> The design is built by the person who drew it, so the live site matches the plan.</span></li>
-          <li><span class="check" aria-hidden="true">&#10003;</span><span><strong>Tested on real phones.</strong> Most of your visitors arrive on mobile, so mobile gets designed first, not last.</span></li>
-          <li><span class="check" aria-hidden="true">&#10003;</span><span><strong>Support after launch.</strong> I stay around for fixes, updates, and the small improvements every site needs.</span></li>
-        </ul>
-      </div>
-      <aside class="studio-facts reveal">
-        <h3>Quick facts</h3>
-        <dl>
-          <div class="fact-row"><dt>Name</dt><dd>Adebiyi Thompson</dd></div>
-          <div class="fact-row"><dt>Role</dt><dd>Web Designer &amp; App Developer</dd></div>
-          <div class="fact-row"><dt>Based in</dt><dd>Lagos, Nigeria</dd></div>
-          <div class="fact-row"><dt>Works with</dt><dd>Clients worldwide</dd></div>
-          <div class="fact-row"><dt>Websites shipped</dt><dd>11</dd></div>
-          <div class="fact-row"><dt>Mobile apps built</dt><dd>3</dd></div>
-          <div class="fact-row"><dt>Contact</dt><dd><a href="mailto:hello@adebiyithompson.com" style="color:var(--accent)">hello@adebiyithompson.com</a></dd></div>
-        </dl>
-      </aside>
+<section aria-label="Quick facts" style="padding-top:40px">
+  <div class="wrap facts">
+    <div class="card fact reveal">
+      <h3>Based in</h3>
+      <p>Lagos, Nigeria.<br>Working with clients everywhere.</p>
     </div>
-  </section>
-
-  <section class="section container" style="padding-top:0">
-    <div class="section-head reveal">
-      <p class="kicker">Services</p>
-      <h2>What I do, in one list.</h2>
+    <div class="card fact reveal" data-delay="80">
+      <h3>Services</h3>
+      <ul><li>Web Design</li><li>App Development</li><li>Brand Identity</li><li>Ideation</li><li>SEO</li></ul>
     </div>
-    <div class="services-grid">
-      <article class="service-card reveal">
-        <p class="service-num">01</p>
-        <h3>Web Design</h3>
-        <p>Responsive websites designed and built to load fast, read well on any screen, and turn visitors into enquiries.</p>
-      </article>
-      <article class="service-card reveal">
-        <p class="service-num">02</p>
-        <h3>App Development</h3>
-        <p>Android apps with offline-first data and clean interfaces, shipped with a web dashboard wherever the team needs one.</p>
-      </article>
-      <article class="service-card reveal">
-        <p class="service-num">03</p>
-        <h3>Brand Identity</h3>
-        <p>Logos, color, and type systems that give a business one consistent look across its site, app, and printed material.</p>
-      </article>
-      <article class="service-card reveal">
-        <p class="service-num">04</p>
-        <h3>Ideation</h3>
-        <p>Working out what a product should do before a single screen is drawn, so the build starts from a clear, agreed plan.</p>
-      </article>
-      <article class="service-card reveal">
-        <p class="service-num">05</p>
-        <h3>SEO</h3>
-        <p>Technical setup, page structure, and local search basics that help the right people find the site on Google.</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="section cta">
-    <div class="container">
-      <h2 class="reveal">Let&rsquo;s talk about your project.</h2>
-      <p class="reveal">One conversation is enough to know if we are a good fit. Tell me what you want to build.</p>
-      <div class="cta-actions reveal">
-        <a class="btn btn-light" href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a>
-        <a class="btn btn-outline-light" href="works.html">See my work first</a>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a class="brand" href="index.html"><span class="brand-mark">AT</span>Adebiyi Thompson</a>
-        <p>Web designer and app developer in Lagos, Nigeria. Design, code, and launch by one person.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Menu</h4>
-        <ul>
-          <li><a href="index.html#apps">Apps</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="works.html">Work</a></li>
-          <li><a href="studio.html">Studio</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <ul>
-          <li><a href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a></li>
-          <li><a href="index.html#process">How I work</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>&copy; <span id="year">2026</span> Adebiyi Thompson. All rights reserved.</span>
-      <span>Designed and built by hand in Lagos, Nigeria.</span>
+    <div class="card fact reveal" data-delay="160">
+      <h3>Contact</h3>
+      <p><a class="arch-link" href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a></p>
     </div>
   </div>
-</footer>
+</section>
+
+<section aria-label="Track record" style="padding-top:40px">
+  <div class="wrap">
+    <div class="reveal" style="margin-bottom:48px">
+      <h2 class="sec-head" style="font-size:clamp(40px,5vw,64px)">Track record.</h2>
+      <p class="sec-sub">Real projects, across ten industries and counting.</p>
+    </div>
+    <div class="reveal">
+      <div class="prow"><div><h3>11+ websites shipped</h3><p>From church platforms and clinic systems to e-commerce demos and agency sites, every one live and hand-built.</p></div><span class="num">11+</span></div>
+      <div class="prow"><div><h3>3 mobile apps built</h3><p>A maternity staff app, a church radio app and a pregnancy companion, all designed and built end to end.</p></div><span class="num">03</span></div>
+      <div class="prow"><div><h3>94+ pages delivered</h3><p>Full multi-page builds, not landing pages: every subpage designed, written and coded.</p></div><span class="num">94+</span></div>
+      <div class="prow"><div><h3>10 industries served</h3><p>Churches, clinics, schools, dental, legal, real estate, hospitality, HVAC, e-commerce and SEO.</p></div><span class="num">10</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" aria-label="Contact">
+  <div class="cta">
+    <div class="wrap">
+      <div class="cta-top reveal">
+        <img class="avatar" src="assets/img/portrait.jpg" alt="Adebiyi Thompson">
+        <div><div class="cta-name">Adebiyi Thompson</div><div class="cta-role">Web Designer &amp; App Developer</div></div>
+      </div>
+      <p class="cta-pitch reveal">Want to work together? I'd like to hear about your project.</p>
+      <div class="cta-btns reveal">
+        <a class="btn btn-solid" href="mailto:hello@adebiyithompson.com">Contact Now <span>→</span></a>
+        <a class="btn btn-outline" href="mailto:hello@adebiyithompson.com?subject=Schedule%20a%20call">Schedule a call</a>
+      </div>
+      <h2 class="reveal">Let's build something remarkable together.</h2>
+      <p class="cta-sub reveal">Reach out today and let's start the conversation.</p>
+    </div>
+    <footer>
+      <div class="wrap">
+        <div class="foot-grid">
+          <div><div class="foot-label">Main Pages</div><ul class="foot-links"><li><a href="index.html">Home</a></li><li><a href="works.html">Work</a></li><li><a href="studio.html">Studio</a></li></ul></div>
+          <div><div class="foot-label">Contact</div><a class="foot-mail" href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a></div>
+          <div><div class="foot-label">Location</div><p style="font-size:17px">Lagos, Nigeria</p></div>
+        </div>
+        <div class="foot-base"><span>© <span id="year">2026</span> Adebiyi Thompson</span><span>Designed and built with care in Lagos</span></div>
+      </div>
+    </footer>
+  </div>
+</section>
 
 <script src="assets/js/main.js"></script>
 </body>

@@ -3,220 +3,113 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Work | Adebiyi Thompson, Web Designer and App Developer</title>
-<meta name="description" content="All 11 websites and 3 mobile apps designed and built by Adebiyi Thompson. Every link opens the real, working project.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1a17'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='bold' fill='white' text-anchor='middle'%3EAT%3C/text%3E%3C/svg%3E">
+<title>Work: Adebiyi Thompson</title>
+<meta name="description" content="Selected websites and mobile apps by Adebiyi Thompson, web designer and app developer in Lagos, Nigeria.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/portrait.jpg">
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
 
-<header class="site-header" id="siteHeader">
-  <nav class="nav container" aria-label="Main navigation">
-    <a class="brand" href="index.html"><span class="brand-mark">AT</span>Adebiyi Thompson</a>
-    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
-    <div class="nav-menu" id="navMenu">
-      <a class="nav-link" href="index.html">Home</a>
-      <a class="nav-link" href="index.html#apps">Apps</a>
-      <a class="nav-link" href="index.html#services">Services</a>
-      <a class="nav-link active" href="works.html">Work</a>
-      <a class="nav-link" href="studio.html">Studio</a>
-      <a class="btn btn-small" href="mailto:hello@adebiyithompson.com">Get in touch</a>
-    </div>
-  </nav>
+<nav class="nav" aria-label="Main navigation">
+  <a class="brand" href="index.html" aria-label="Adebiyi Thompson home"><span class="brand-mark"></span>AT.</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="works.html" class="active">Work</a></li>
+    <li><a href="studio.html">Studio</a></li>
+  </ul>
+  <a class="btn" href="mailto:hello@adebiyithompson.com">Get in touch</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="works.html">Work</a>
+  <a href="studio.html">Studio</a>
+  <a class="btn" href="mailto:hello@adebiyithompson.com">Get in touch</a>
+</div>
+
+<header class="page-hero">
+  <div class="wrap">
+    <h1>Work.</h1>
+    <p class="sec-sub">A selection of websites and apps, all live and all real.</p>
+  </div>
 </header>
 
-<main id="main">
-  <section class="page-hero container">
-    <p class="kicker reveal">Work</p>
-    <h1 class="reveal">Websites and apps, all live.</h1>
-    <p class="lede reveal">Every project below was designed and built by hand, and every link opens the real thing. Concept demos are labelled as demos: they show what I can build for a business like yours.</p>
-  </section>
-
-  <section class="section container" id="websites" style="padding-top:40px">
-    <div class="section-head reveal">
-      <p class="kicker">Websites</p>
-      <h2>Eleven sites, eleven live addresses.</h2>
-    </div>
-    <div class="work-grid">
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#1e3a8a,#3b82f6)" aria-hidden="true">X</div>
-        <div class="work-body">
-          <div class="work-top"><h3>xylvar</h3><span class="work-kind">Personal project</span></div>
-          <p>Marketing site for an SEO agency: services, process pages, and sample audit reports.</p>
-          <a class="work-link" href="https://xylvar.pages.dev" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#713f12,#ca8a04)" aria-hidden="true">M</div>
-        <div class="work-body">
-          <div class="work-top"><h3>Movaldem</h3><span class="work-kind">Client work</span></div>
-          <p>Church website with a teaching library, daily Bible quiz, and online giving.</p>
-          <a class="work-link" href="https://movaldem.teta.dpdns.org" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#7c2d12,#f59e0b)" aria-hidden="true">E</div>
-        <div class="work-body">
-          <div class="work-top"><h3>Esriltor</h3><span class="work-kind">Concept demo</span></div>
-          <p>Estate agency site: property listings, detail pages, and a selling guide.</p>
-          <a class="work-link" href="https://julieellis1.github.io/portfolio-demos/esriltor/" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#0c4a6e,#0284c7)" aria-hidden="true">P</div>
-        <div class="work-body">
-          <div class="work-top"><h3>Premier HVAC</h3><span class="work-kind">Concept demo</span></div>
-          <p>Service business site: booking widget, service pages, reviews, and FAQ.</p>
-          <a class="work-link" href="https://julieellis1.github.io/portfolio-demos/premier-hvac/" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#3f3f46,#a1a1aa)" aria-hidden="true">B</div>
-        <div class="work-body">
-          <div class="work-top"><h3>Bomorn Haven</h3><span class="work-kind">Concept demo</span></div>
-          <p>Restaurant site: tabbed menu, reservations, gallery, and takeaway ordering.</p>
-          <a class="work-link" href="https://julieellis1.github.io/portfolio-demos/bomorn-haven/" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#0f766e,#2dd4bf)" aria-hidden="true">Z</div>
-        <div class="work-body">
-          <div class="work-top"><h3>ZoeSmile</h3><span class="work-kind">Personal project</span></div>
-          <p>Dental clinic website with services, booking flow, and patient information.</p>
-          <a class="work-link" href="https://zoesmile.teta.dpdns.org" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#1c1917,#57534e)" aria-hidden="true">L</div>
-        <div class="work-body">
-          <div class="work-top"><h3>Litmern Consults</h3><span class="work-kind">Concept demo</span></div>
-          <p>Consulting firm site: service detail pages, case studies, and insights articles.</p>
-          <a class="work-link" href="https://julieellis1.github.io/portfolio-demos/litmern-consults/" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#581c87,#a855f7)" aria-hidden="true">S</div>
-        <div class="work-body">
-          <div class="work-top"><h3>SAG Ministry</h3><span class="work-kind">Concept demo</span></div>
-          <p>Ministry website concept: video hero, programs, sermons, and giving pages.</p>
-          <a class="work-link" href="https://test.teta.dpdns.org" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#4c1d95,#8b5cf6)" aria-hidden="true">Mk</div>
-        <div class="work-body">
-          <div class="work-top"><h3>Marksheet</h3><span class="work-kind">My product</span></div>
-          <p>School management platform: CBT exams, results, fees, and a parent app.</p>
-          <a class="work-link" href="https://marksheet.top" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#0e7c66,#14b88a)" aria-hidden="true">C</div>
-        <div class="work-body">
-          <div class="work-top"><h3>Clinic Staff App</h3><span class="work-kind">Client work</span></div>
-          <p>Web dashboard for the OMH maternity staff app: records, roster, and reports.</p>
-          <a class="work-link" href="https://omh.teta.dpdns.org" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#111827,#4b5563)" aria-hidden="true">V</div>
-        <div class="work-body">
-          <div class="work-top"><h3>VoltEdge</h3><span class="work-kind">Concept demo</span></div>
-          <p>Electronics store demo: 12 products, cart, wishlist, and a working checkout flow.</p>
-          <a class="work-link" href="https://julieellis1.github.io/portfolio-demos/voltedge/" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <!-- Apps -->
-  <section class="section apps" id="apps">
-    <div class="container">
-      <div class="section-head reveal">
-        <p class="kicker">Mobile apps</p>
-        <h2>Three apps, three real users.</h2>
-        <p>Designed and built end to end: interface, data, and launch.</p>
-      </div>
-      <div class="apps-grid">
-        <article class="app-card reveal">
-          <div class="app-top">
-            <div class="app-icon" style="background:linear-gradient(135deg,#0e7c66,#14b88a)" aria-hidden="true">OM</div>
-            <span class="app-tag">Android app</span>
-          </div>
-          <h3>OMH Maternity App</h3>
-          <p>Staff app for Oluwatodupefun Maternity Home. An offline-capable Android app plus web dashboard: patient and antenatal records, labour records, a staff duty roster with lateness tracking, and AI-powered drug information and clinical briefs. The web dashboard is live; ask me for a walkthrough of the Android app.</p>
-          <p class="app-stack"><strong>Built with:</strong> Next.js, Postgres, Capacitor</p>
-        </article>
-        <article class="app-card reveal">
-          <div class="app-top">
-            <div class="app-icon" style="background:linear-gradient(135deg,#7c2d12,#ea580c)" aria-hidden="true">MR</div>
-            <span class="app-tag">Android app</span>
-          </div>
-          <h3>Movaldem Radio App</h3>
-          <p>App for Mountain of Victory at the Last Day Evangelical Ministry, a Lagos church. Live online radio streaming, a daily Bible quiz with leaderboards, push notifications for church announcements, and secure member login. Ask me for a walkthrough of the Android app.</p>
-          <p class="app-stack"><strong>Built with:</strong> native-feel web stack, Firebase push</p>
-        </article>
-        <article class="app-card reveal">
-          <div class="app-top">
-            <div class="app-icon" style="background:linear-gradient(135deg,#9d2c5c,#ec4899)" aria-hidden="true">BP</div>
-            <span class="app-tag">Mobile app</span>
-          </div>
-          <h3>BellePal</h3>
-          <p>A Nigeria-first pregnancy companion for expectant mothers. The offline-first core is free forever, built on a 221-topic maternal health knowledge base reviewed with 12 clinicians. The online layer adds AI chat and report scanning. Ask me for a walkthrough.</p>
-          <p class="app-stack"><strong>Built with:</strong> Expo, Node.js, Postgres</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="section cta">
-    <div class="container">
-      <h2 class="reveal">Want something like this?</h2>
-      <p class="reveal">A website or an app for your business, church, clinic, or school. Tell me what you have in mind.</p>
-      <div class="cta-actions reveal">
-        <a class="btn btn-light" href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a class="brand" href="index.html"><span class="brand-mark">AT</span>Adebiyi Thompson</a>
-        <p>Web designer and app developer in Lagos, Nigeria. Design, code, and launch by one person.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Menu</h4>
-        <ul>
-          <li><a href="index.html#apps">Apps</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="works.html">Work</a></li>
-          <li><a href="studio.html">Studio</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <ul>
-          <li><a href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a></li>
-          <li><a href="index.html#process">How I work</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>&copy; <span id="year">2026</span> Adebiyi Thompson. All rights reserved.</span>
-      <span>Designed and built by hand in Lagos, Nigeria.</span>
+<section style="padding-top:40px" aria-label="Websites">
+  <div class="wrap">
+    <div class="reveal" style="margin-bottom:48px"><h2 class="sec-head" style="font-size:clamp(40px,5vw,64px)">Websites.</h2></div>
+    <div class="arch-grid">
+      <div class="arch-card reveal"><div class="arch-top"><h3 class="arch-name">xylvar</h3><span class="tag">My product</span></div><p class="arch-desc">SEO agency site with an opportunity-report engine for local businesses.</p><a class="arch-link" href="https://xylvar.pages.dev" target="_blank" rel="noopener">Visit live site →</a></div>
+      <div class="arch-card reveal" data-delay="60"><div class="arch-top"><h3 class="arch-name">Movaldem</h3><span class="tag">Client work</span></div><p class="arch-desc">Church platform with teaching library, daily Bible quiz and online giving.</p><a class="arch-link" href="https://movaldem.teta.dpdns.org" target="_blank" rel="noopener">Visit live site →</a></div>
+      <div class="arch-card reveal"><div class="arch-top"><h3 class="arch-name">Esriltor</h3><span class="tag">Concept demo</span></div><p class="arch-desc">Manchester estate agency site with listings, property pages and a sell journey.</p><a class="arch-link" href="https://julieellis1.github.io/portfolio-demos/esriltor/" target="_blank" rel="noopener">Visit live site →</a></div>
+      <div class="arch-card reveal" data-delay="60"><div class="arch-top"><h3 class="arch-name">Premier HVAC</h3><span class="tag">Concept demo</span></div><p class="arch-desc">Las Vegas HVAC company site with booking widget and service pages.</p><a class="arch-link" href="https://julieellis1.github.io/portfolio-demos/premier-hvac/" target="_blank" rel="noopener">Visit live site →</a></div>
+      <div class="arch-card reveal"><div class="arch-top"><h3 class="arch-name">Bomorn Haven</h3><span class="tag">Concept demo</span></div><p class="arch-desc">Restaurant site with tabbed menu, reservations, gallery and takeaway.</p><a class="arch-link" href="https://julieellis1.github.io/portfolio-demos/bomorn-haven/" target="_blank" rel="noopener">Visit live site →</a></div>
+      <div class="arch-card reveal" data-delay="60"><div class="arch-top"><h3 class="arch-name">ZoeSmile</h3><span class="tag">Client work</span></div><p class="arch-desc">Dental clinic platform with treatments, booking and patient information.</p><a class="arch-link" href="https://zoesmile.teta.dpdns.org" target="_blank" rel="noopener">Visit live site →</a></div>
+      <div class="arch-card reveal"><div class="arch-top"><h3 class="arch-name">Litmern Consults</h3><span class="tag">Concept demo</span></div><p class="arch-desc">Consulting firm site with service pages, case studies and insights.</p><a class="arch-link" href="https://julieellis1.github.io/portfolio-demos/litmern-consults/" target="_blank" rel="noopener">Visit live site →</a></div>
+      <div class="arch-card reveal" data-delay="60"><div class="arch-top"><h3 class="arch-name">SAG Ministry</h3><span class="tag">Client work</span></div><p class="arch-desc">Church website with sermons, programs and online giving.</p><a class="arch-link" href="https://test.teta.dpdns.org" target="_blank" rel="noopener">Visit live site →</a></div>
+      <div class="arch-card reveal"><div class="arch-top"><h3 class="arch-name">Marksheet</h3><span class="tag">My product</span></div><p class="arch-desc">School management platform with exams, results and parent app.</p><a class="arch-link" href="https://marksheet.top" target="_blank" rel="noopener">Visit live site →</a></div>
+      <div class="arch-card reveal" data-delay="60"><div class="arch-top"><h3 class="arch-name">Clinic Staff App</h3><span class="tag">Client work</span></div><p class="arch-desc">Web dashboard for the OMH maternity staff app.</p><a class="arch-link" href="https://omh.teta.dpdns.org" target="_blank" rel="noopener">Visit live site →</a></div>
+      <div class="arch-card reveal"><div class="arch-top"><h3 class="arch-name">VoltEdge</h3><span class="tag">Concept demo</span></div><p class="arch-desc">Electronics e-commerce demo with cart, checkout and 12 products.</p><a class="arch-link" href="https://julieellis1.github.io/portfolio-demos/voltedge/" target="_blank" rel="noopener">Visit live site →</a></div>
     </div>
   </div>
-</footer>
+</section>
+
+<section aria-label="Mobile apps" style="padding-top:40px">
+  <div class="wrap">
+    <div class="reveal" style="margin-bottom:8px"><h2 class="sec-head" style="font-size:clamp(40px,5vw,64px)">Apps.</h2>
+    <p class="sec-sub">Three mobile apps designed and built end to end, all in active use.</p></div>
+    <div class="apps-grid">
+      <div class="card app-card reveal" data-delay="60">
+        <div class="app-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <h3 class="app-name">OMH Maternity App</h3>
+        <p class="app-desc">Staff app for Oluwatodupefun Maternity Home. An offline-capable Android app with a web dashboard for patient and antenatal records, labour records, staff duty rosters with lateness tracking, and AI-powered drug information and clinical briefs.</p>
+        <div class="stack"><span>Next.js</span><span>Postgres</span><span>Capacitor</span><span>Android APK</span></div>
+      </div>
+      <div class="card app-card reveal" data-delay="140">
+        <div class="app-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l5 3.5-5 3.5z" fill="currentColor" stroke="none"/></svg></div>
+        <h3 class="app-name">Movaldem Radio App</h3>
+        <p class="app-desc">Android app for the Mountain of Victory at the Last Day Evangelical Ministry community. Live online radio streaming, a daily Bible quiz with leaderboards, push notifications for church announcements and secure member login.</p>
+        <div class="stack"><span>Android</span><span>AzuraCast</span><span>Firebase</span></div>
+      </div>
+      <div class="card app-card reveal" data-delay="220">
+        <div class="app-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21C7 17 3 13.5 3 9.5A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 9 3.5c0 4-4 7.5-9 11.5z"/></svg></div>
+        <h3 class="app-name">BellePal</h3>
+        <p class="app-desc">Nigeria-first pregnancy companion for expectant mothers. An offline-first core that is free forever, with a 221-topic maternal health knowledge base reviewed with 12 clinicians, plus AI chat and report scanning in the online layer.</p>
+        <div class="stack"><span>React Native</span><span>AI Chat</span><span>Offline-first</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" aria-label="Contact">
+  <div class="cta">
+    <div class="wrap">
+      <div class="cta-top reveal">
+        <img class="avatar" src="assets/img/portrait.jpg" alt="Adebiyi Thompson">
+        <div><div class="cta-name">Adebiyi Thompson</div><div class="cta-role">Web Designer &amp; App Developer</div></div>
+      </div>
+      <p class="cta-pitch reveal">Like what you see? Let's discuss your project.</p>
+      <div class="cta-btns reveal">
+        <a class="btn btn-solid" href="mailto:hello@adebiyithompson.com">Contact Now <span>→</span></a>
+        <a class="btn btn-outline" href="mailto:hello@adebiyithompson.com?subject=Schedule%20a%20call">Schedule a call</a>
+      </div>
+      <h2 class="reveal">Let's build something remarkable together.</h2>
+      <p class="cta-sub reveal">Reach out today and let's start the conversation.</p>
+    </div>
+    <footer>
+      <div class="wrap">
+        <div class="foot-grid">
+          <div><div class="foot-label">Main Pages</div><ul class="foot-links"><li><a href="index.html">Home</a></li><li><a href="works.html">Work</a></li><li><a href="studio.html">Studio</a></li></ul></div>
+          <div><div class="foot-label">Contact</div><a class="foot-mail" href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a></div>
+          <div><div class="foot-label">Location</div><p style="font-size:17px">Lagos, Nigeria</p></div>
+        </div>
+        <div class="foot-base"><span>© <span id="year">2026</span> Adebiyi Thompson</span><span>Designed and built with care in Lagos</span></div>
+      </div>
+    </footer>
+  </div>
+</section>
 
 <script src="assets/js/main.js"></script>
 </body>

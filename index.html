@@ -3,307 +3,223 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Adebiyi Thompson, Web Designer and App Developer in Lagos</title>
-<meta name="description" content="Adebiyi Thompson is a web designer and app developer in Lagos, Nigeria. 11 websites shipped, 3 mobile apps built. Design, code, and launch handled by one person.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1a17'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='28' font-weight='bold' fill='white' text-anchor='middle'%3EAT%3C/text%3E%3C/svg%3E">
+<title>Adebiyi Thompson: Web Designer &amp; App Developer in Lagos</title>
+<meta name="description" content="Adebiyi Thompson is a web designer and app developer in Lagos, Nigeria, building fast, honest websites and mobile apps for growing businesses.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="assets/img/portrait.jpg">
 </head>
 <body>
-<a class="skip" href="#main">Skip to content</a>
 
-<header class="site-header" id="siteHeader">
-  <nav class="nav container" aria-label="Main navigation">
-    <a class="brand" href="index.html"><span class="brand-mark">AT</span>Adebiyi Thompson</a>
-    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
-    <div class="nav-menu" id="navMenu">
-      <a class="nav-link active" href="index.html">Home</a>
-      <a class="nav-link" href="index.html#apps">Apps</a>
-      <a class="nav-link" href="index.html#services">Services</a>
-      <a class="nav-link" href="works.html">Work</a>
-      <a class="nav-link" href="studio.html">Studio</a>
-      <a class="btn btn-small" href="mailto:hello@adebiyithompson.com">Get in touch</a>
-    </div>
-  </nav>
+<nav class="nav" aria-label="Main navigation">
+  <a class="brand" href="index.html" aria-label="Adebiyi Thompson home"><span class="brand-mark"></span>AT.</a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="works.html">Work</a></li>
+    <li><a href="studio.html">Studio</a></li>
+  </ul>
+  <a class="btn" href="mailto:hello@adebiyithompson.com">Get in touch</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="works.html">Work</a>
+  <a href="studio.html">Studio</a>
+  <a class="btn" href="mailto:hello@adebiyithompson.com">Get in touch</a>
+</div>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <h1>Web Designer<br><span class="amp">&amp;</span> App Developer</h1>
+    <div class="hero-photo" role="img" aria-label="Portrait placeholder monogram"><span class="mono">AT</span></div>
+    <p class="hero-intro">Hello, I'm Adebiyi Thompson, a web designer and app developer in Lagos, Nigeria, building fast, honest websites and mobile apps for businesses that want to grow.</p>
+  </div>
 </header>
 
-<main id="main">
-  <!-- Hero -->
-  <section class="hero container">
-    <p class="kicker reveal">Web Designer &amp; App Developer, Lagos Nigeria</p>
-    <h1 class="reveal">I design and build <span class="accent-word">websites</span> and <span class="accent-word">apps</span> people enjoy using.</h1>
-    <p class="lede reveal">I&rsquo;m Adebiyi Thompson. I take projects from first sketch to launch: design, code, and deployment handled by one person, so nothing gets lost between handoffs.</p>
-    <div class="hero-actions reveal">
-      <a class="btn" href="works.html">See my work</a>
-      <a class="btn btn-ghost" href="mailto:hello@adebiyithompson.com">Get in touch</a>
-    </div>
-    <div class="hero-meta reveal">
-      <span><span class="status-dot" aria-hidden="true"></span><strong>Available</strong> for new projects</span>
-      <span>Based in <strong>Lagos</strong>, working worldwide</span>
-      <span><strong>11</strong> websites shipped</span>
-    </div>
-  </section>
+<div class="strip" aria-label="Selected clients and projects">
+  <div class="marquee"><div class="marquee-track" id="logoTrack">
+    <span class="logo-pill"><i></i>xylvar</span><span class="logo-pill"><i></i>Movaldem</span><span class="logo-pill"><i></i>Esriltor</span><span class="logo-pill"><i></i>Premier HVAC</span><span class="logo-pill"><i></i>Bomorn Haven</span><span class="logo-pill"><i></i>ZoeSmile</span><span class="logo-pill"><i></i>Litmern Consults</span><span class="logo-pill"><i></i>SAG Ministry</span><span class="logo-pill"><i></i>Marksheet</span><span class="logo-pill"><i></i>VoltEdge</span>
+  </div></div>
+</div>
 
-  <!-- Project strip -->
-  <div class="strip" aria-label="Selected project names">
-    <div class="container">
-      <div class="strip-inner">
-        <span class="strip-label">Recent work</span>
-        <span class="strip-item">xylvar</span>
-        <span class="strip-item">Movaldem</span>
-        <span class="strip-item">Marksheet</span>
-        <span class="strip-item">BellePal</span>
-        <span class="strip-item">OMH Maternity App</span>
-        <span class="strip-item">Esriltor</span>
-        <span class="strip-item">ZoeSmile</span>
-        <span class="strip-item">VoltEdge</span>
-        <span class="strip-item">Litmern Consults</span>
-        <span class="strip-item">Premier HVAC</span>
+<section id="about" aria-label="About me">
+  <div class="wrap bento">
+    <div class="card about-dark reveal">
+      <h2>About Me</h2>
+      <a class="read-more" href="studio.html"><span class="arr">↳</span> Read more</a>
+    </div>
+    <div class="card reveal" data-delay="80">
+      <h3 class="about-name">Adebiyi Thompson</h3>
+      <p class="about-bio">I'm an independent web designer and app developer based in Lagos. I design and build websites, brands and mobile apps with care, and I keep every project honest: real work, real results, no fluff.</p>
+    </div>
+    <div class="card reveal" data-delay="140">
+      <div class="stat-num">11+</div>
+      <div class="stat-label">Websites Shipped</div>
+    </div>
+    <div class="card reveal" data-delay="200">
+      <div class="stat-num">3</div>
+      <div class="stat-label">Mobile Apps Built</div>
+    </div>
+    <div class="card reveal" data-delay="260">
+      <div class="stat-num">94+</div>
+      <div class="stat-label">Pages Delivered</div>
+    </div>
+  </div>
+</section>
+
+<section id="services" aria-label="Services">
+  <div class="wrap services-layout">
+    <div class="reveal sec-head-row">
+      <h2 class="sec-head">Services.</h2>
+      <p class="sec-sub">A clear look at what I do and how each service helps your business.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="card reveal" data-delay="60">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M2 20h20M9 16v4M15 16v4"/></svg></div>
+        <h3 class="svc-title">Web Design</h3>
+        <p class="svc-desc">Modern, responsive websites designed around your customers and built to load fast and convert.</p>
+      </div>
+      <div class="card reveal" data-delay="120">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18.5h2"/></svg></div>
+        <h3 class="svc-title">App Development</h3>
+        <p class="svc-desc">Android and cross-platform mobile apps, from first idea to a polished product in your users' hands.</p>
+      </div>
+      <div class="card reveal" data-delay="180">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v18M5 7l7-4 7 4M5 7v10l7 4 7-4V7"/><path d="M5 12h14"/></svg></div>
+        <h3 class="svc-title">Brand Identity</h3>
+        <p class="svc-desc">Logos, color and type systems that give your business a clear, memorable voice.</p>
+      </div>
+      <div class="card reveal" data-delay="240">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.8.7 1 1.5 1 2.5h6c0-1 .2-1.8 1-2.5A6 6 0 0 0 12 3z"/></svg></div>
+        <h3 class="svc-title">Ideation</h3>
+        <p class="svc-desc">Structured thinking that turns a rough idea into a clear plan before a single pixel is placed.</p>
+      </div>
+      <div class="card svc-wide reveal" data-delay="300">
+        <div class="svc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3M8 11v3M11 8v6M14 10v4"/></svg></div>
+        <h3 class="svc-title">SEO</h3>
+        <p class="svc-desc">Technical and on-page search optimization that helps the right people find you on Google.</p>
       </div>
     </div>
   </div>
+</section>
 
-  <!-- About + stats -->
-  <section class="section container" id="about">
-    <div class="about-grid">
-      <div class="about-copy">
-        <p class="kicker reveal">About</p>
-        <div class="section-head reveal">
-          <h2>One person, from sketch to launch.</h2>
-        </div>
-        <p class="reveal">I&rsquo;m a web designer and app developer based in <strong>Lagos, Nigeria</strong>. I design and build websites and Android apps for businesses, churches, clinics, and schools.</p>
-        <p class="reveal">I work solo on purpose. You speak directly with the person designing the screens and writing the code, which keeps projects fast and decisions clear. Everything here was designed and built by hand, tested on real phones, and launched to a live address.</p>
+<section id="apps" aria-label="Mobile apps">
+  <div class="wrap">
+    <div class="reveal">
+      <h2 class="sec-head">Apps.</h2>
+      <p class="sec-sub">Beyond websites: three mobile apps designed and built end to end, all in active use.</p>
+    </div>
+    <div class="apps-grid">
+      <div class="card app-card reveal" data-delay="60">
+        <div class="app-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <h3 class="app-name">OMH Maternity App</h3>
+        <p class="app-desc">Staff app for Oluwatodupefun Maternity Home. An offline-capable Android app with a web dashboard for patient and antenatal records, duty rosters and AI-powered drug information.</p>
+        <div class="stack"><span>Next.js</span><span>Postgres</span><span>Capacitor</span></div>
       </div>
-      <div class="stats">
-        <div class="stat reveal"><div class="stat-num">11</div><div class="stat-label">Websites designed and shipped</div></div>
-        <div class="stat reveal"><div class="stat-num">3</div><div class="stat-label">Mobile apps designed and built</div></div>
-        <div class="stat reveal"><div class="stat-num">94<span>+</span></div><div class="stat-label">Pages built across all projects</div></div>
-        <div class="stat reveal"><div class="stat-num">10</div><div class="stat-label">Industries served, from clinics to churches</div></div>
+      <div class="card app-card reveal" data-delay="140">
+        <div class="app-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M10 8.5l5 3.5-5 3.5z" fill="currentColor" stroke="none"/></svg></div>
+        <h3 class="app-name">Movaldem Radio App</h3>
+        <p class="app-desc">Android app for a Lagos church community. Live radio streaming, a daily Bible quiz with leaderboards, push notifications and secure member login.</p>
+        <div class="stack"><span>Android</span><span>AzuraCast</span><span>Firebase</span></div>
       </div>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section class="section container" id="services" style="padding-top:0">
-    <div class="section-head reveal">
-      <p class="kicker">Services</p>
-      <h2>What I can do for you.</h2>
-      <p>Five disciplines, one pair of hands. You always know who is doing the work.</p>
-    </div>
-    <div class="services-grid">
-      <article class="service-card reveal">
-        <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 21h8"/></svg></div>
-        <p class="service-num">01</p>
-        <h3>Web Design</h3>
-        <p>Responsive websites designed and built to load fast, read well on any screen, and turn visitors into enquiries.</p>
-      </article>
-      <article class="service-card reveal">
-        <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div>
-        <p class="service-num">02</p>
-        <h3>App Development</h3>
-        <p>Android apps with offline-first data and clean interfaces, shipped with a web dashboard wherever the team needs one.</p>
-      </article>
-      <article class="service-card reveal">
-        <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></div>
-        <p class="service-num">03</p>
-        <h3>Brand Identity</h3>
-        <p>Logos, color, and type systems that give a business one consistent look across its site, app, and printed material.</p>
-      </article>
-      <article class="service-card reveal">
-        <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.8.7 1 1.5 1 2.5h6c0-1 .2-1.8 1-2.5A6 6 0 0 0 12 3z"/></svg></div>
-        <p class="service-num">04</p>
-        <h3>Ideation</h3>
-        <p>Working out what a product should do before a single screen is drawn, so the build starts from a clear, agreed plan.</p>
-      </article>
-      <article class="service-card reveal">
-        <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
-        <p class="service-num">05</p>
-        <h3>SEO</h3>
-        <p>Technical setup, page structure, and local search basics that help the right people find the site on Google.</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- Apps showcase -->
-  <section class="section apps" id="apps">
-    <div class="container">
-      <div class="section-head reveal">
-        <p class="kicker">Mobile apps</p>
-        <h2>Apps used by real people.</h2>
-        <p>Three apps I designed and built end to end: one for a maternity clinic, one for a church, one for expectant mothers.</p>
+      <div class="card app-card reveal" data-delay="220">
+        <div class="app-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21C7 17 3 13.5 3 9.5A4.5 4.5 0 0 1 12 6a4.5 4.5 0 0 1 9 3.5c0 4-4 7.5-9 11.5z"/></svg></div>
+        <h3 class="app-name">BellePal</h3>
+        <p class="app-desc">Nigeria-first pregnancy companion for expectant mothers. An offline-first core that is free forever, with a 221-topic maternal health library reviewed with 12 clinicians.</p>
+        <div class="stack"><span>React Native</span><span>AI Chat</span><span>Offline-first</span></div>
       </div>
-      <div class="apps-grid">
-        <article class="app-card reveal">
-          <div class="app-top">
-            <div class="app-icon" style="background:linear-gradient(135deg,#0e7c66,#14b88a)" aria-hidden="true">OM</div>
-            <span class="app-tag">Android app</span>
-          </div>
-          <h3>OMH Maternity App</h3>
-          <p>Staff app for Oluwatodupefun Maternity Home. An offline-capable Android app plus web dashboard: patient and antenatal records, labour records, a staff duty roster with lateness tracking, and AI-powered drug information and clinical briefs.</p>
-          <p class="app-stack"><strong>Built with:</strong> Next.js, Postgres, Capacitor</p>
-        </article>
-        <article class="app-card reveal">
-          <div class="app-top">
-            <div class="app-icon" style="background:linear-gradient(135deg,#7c2d12,#ea580c)" aria-hidden="true">MR</div>
-            <span class="app-tag">Android app</span>
-          </div>
-          <h3>Movaldem Radio App</h3>
-          <p>App for Mountain of Victory at the Last Day Evangelical Ministry, a Lagos church. Live online radio streaming, a daily Bible quiz with leaderboards, push notifications for church announcements, and secure member login.</p>
-          <p class="app-stack"><strong>Built with:</strong> native-feel web stack, Firebase push</p>
-        </article>
-        <article class="app-card reveal">
-          <div class="app-top">
-            <div class="app-icon" style="background:linear-gradient(135deg,#9d2c5c,#ec4899)" aria-hidden="true">BP</div>
-            <span class="app-tag">Mobile app</span>
-          </div>
-          <h3>BellePal</h3>
-          <p>A Nigeria-first pregnancy companion for expectant mothers. The offline-first core is free forever, built on a 221-topic maternal health knowledge base reviewed with 12 clinicians. The online layer adds AI chat and report scanning.</p>
-          <p class="app-stack"><strong>Built with:</strong> Expo, Node.js, Postgres</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Selected work -->
-  <section class="section container" id="work">
-    <div class="section-head reveal">
-      <p class="kicker">Selected work</p>
-      <h2>Websites, live on the internet.</h2>
-      <p>A few of the eleven sites I have shipped. Every link opens the real, working site.</p>
-    </div>
-    <div class="work-grid">
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#1e3a8a,#3b82f6)" aria-hidden="true">X</div>
-        <div class="work-body">
-          <div class="work-top"><h3>xylvar</h3><span class="work-kind">Personal project</span></div>
-          <p>Marketing site for an SEO agency: services, process pages, and sample audit reports.</p>
-          <a class="work-link" href="https://xylvar.pages.dev" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#713f12,#ca8a04)" aria-hidden="true">M</div>
-        <div class="work-body">
-          <div class="work-top"><h3>Movaldem</h3><span class="work-kind">Client work</span></div>
-          <p>Church website with a teaching library, daily Bible quiz, and online giving.</p>
-          <a class="work-link" href="https://movaldem.teta.dpdns.org" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#0f766e,#2dd4bf)" aria-hidden="true">Z</div>
-        <div class="work-body">
-          <div class="work-top"><h3>ZoeSmile</h3><span class="work-kind">Personal project</span></div>
-          <p>Dental clinic website with services, booking flow, and patient information.</p>
-          <a class="work-link" href="https://zoesmile.teta.dpdns.org" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#4c1d95,#8b5cf6)" aria-hidden="true">Mk</div>
-        <div class="work-body">
-          <div class="work-top"><h3>Marksheet</h3><span class="work-kind">My product</span></div>
-          <p>School management platform: CBT exams, results, fees, and a parent app.</p>
-          <a class="work-link" href="https://marksheet.top" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#7c2d12,#f59e0b)" aria-hidden="true">E</div>
-        <div class="work-body">
-          <div class="work-top"><h3>Esriltor</h3><span class="work-kind">Concept demo</span></div>
-          <p>Estate agency site: property listings, detail pages, and a selling guide.</p>
-          <a class="work-link" href="https://julieellis1.github.io/portfolio-demos/esriltor/" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-      <article class="work-card reveal">
-        <div class="work-visual" style="background:linear-gradient(135deg,#111827,#4b5563)" aria-hidden="true">V</div>
-        <div class="work-body">
-          <div class="work-top"><h3>VoltEdge</h3><span class="work-kind">Concept demo</span></div>
-          <p>Electronics store demo: 12 products, cart, wishlist, and a working checkout flow.</p>
-          <a class="work-link" href="https://julieellis1.github.io/portfolio-demos/voltedge/" target="_blank" rel="noopener">Visit site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M8 7h9v9"/></svg></a>
-        </div>
-      </article>
-    </div>
-    <div class="work-more reveal">
-      <a class="btn btn-ghost" href="works.html">See all 11 projects</a>
-    </div>
-  </section>
-
-  <!-- Process -->
-  <section class="section container" id="process" style="padding-top:0">
-    <div class="section-head reveal">
-      <p class="kicker">Process</p>
-      <h2>How I work.</h2>
-      <p>Four steps, no surprises. You always know what happens next.</p>
-    </div>
-    <div class="process-grid">
-      <article class="step reveal">
-        <p class="step-num">STEP 01</p>
-        <h3>Discover</h3>
-        <p>We talk through what the site or app needs to do, who it is for, and what success looks like.</p>
-      </article>
-      <article class="step reveal">
-        <p class="step-num">STEP 02</p>
-        <h3>Design</h3>
-        <p>I plan the structure, then design every screen: layout, type, color, and content, reviewed with you.</p>
-      </article>
-      <article class="step reveal">
-        <p class="step-num">STEP 03</p>
-        <h3>Build</h3>
-        <p>I write the code, test on phones and desktops, and fix what breaks before you ever see it.</p>
-      </article>
-      <article class="step reveal">
-        <p class="step-num">STEP 04</p>
-        <h3>Launch</h3>
-        <p>We go live together. I stay around after launch for fixes, updates, and small improvements.</p>
-      </article>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="section cta">
-    <div class="container">
-      <h2 class="reveal">Have a project in mind?</h2>
-      <p class="reveal">Tell me what you want to build: a website, an app, or both. I reply to every serious enquiry within two working days.</p>
-      <div class="cta-actions reveal">
-        <a class="btn btn-light" href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a class="brand" href="index.html"><span class="brand-mark">AT</span>Adebiyi Thompson</a>
-        <p>Web designer and app developer in Lagos, Nigeria. Design, code, and launch by one person.</p>
-      </div>
-      <div class="footer-col">
-        <h4>Menu</h4>
-        <ul>
-          <li><a href="index.html#apps">Apps</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="works.html">Work</a></li>
-          <li><a href="studio.html">Studio</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <ul>
-          <li><a href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a></li>
-          <li><a href="index.html#process">How I work</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>&copy; <span id="year">2026</span> Adebiyi Thompson. All rights reserved.</span>
-      <span>Designed and built by hand in Lagos, Nigeria.</span>
     </div>
   </div>
-</footer>
+</section>
+
+<section id="process" aria-label="How I work">
+  <div class="wrap">
+    <div class="reveal" style="margin-bottom:48px">
+      <h2 class="sec-head">How I work.</h2>
+      <p class="sec-sub">A simple, transparent process from first call to launch day.</p>
+    </div>
+    <div class="reveal">
+      <div class="prow"><div><h3>Discover</h3><p>We talk through your goals, your customers and what success looks like, so the project starts with clarity.</p></div><span class="num">01</span></div>
+      <div class="prow"><div><h3>Design</h3><p>You see the design early and we refine it together until it feels right for your brand.</p></div><span class="num">02</span></div>
+      <div class="prow"><div><h3>Build</h3><p>I build the site or app with clean code, test it on real devices and keep you updated as it takes shape.</p></div><span class="num">03</span></div>
+      <div class="prow"><div><h3>Launch</h3><p>We launch, I verify everything works, and I stay around to support you after go-live.</p></div><span class="num">04</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="work" aria-label="Selected work">
+  <div class="wrap">
+    <div class="work-head reveal">
+      <div>
+        <h2 class="sec-head">Work.</h2>
+        <p class="sec-sub">A selection of my latest work.</p>
+      </div>
+      <button class="arrow-btn" data-carousel-next="workTrack" aria-label="Scroll work carousel">→</button>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="carousel reveal" id="workTrack">
+      <article class="work-card"><a href="https://xylvar.pages.dev" target="_blank" rel="noopener">
+        <div class="work-visual" style="background:linear-gradient(135deg,#1f6feb,#0b2a5b)"><span class="wi">Xy</span><span class="wt">Live site ↗</span></div>
+        <h3 class="work-title">xylvar</h3><p class="work-desc">SEO agency site with an opportunity-report engine for local businesses.</p></a></article>
+      <article class="work-card"><a href="https://movaldem.teta.dpdns.org" target="_blank" rel="noopener">
+        <div class="work-visual" style="background:linear-gradient(135deg,#7c3aed,#2e1065)"><span class="wi">Mo</span><span class="wt">Live site ↗</span></div>
+        <h3 class="work-title">Movaldem</h3><p class="work-desc">Church platform with teaching library, daily quiz and online giving.</p></a></article>
+      <article class="work-card"><a href="https://julieellis1.github.io/portfolio-demos/esriltor/" target="_blank" rel="noopener">
+        <div class="work-visual" style="background:linear-gradient(135deg,#0f766e,#042f2e)"><span class="wi">Es</span><span class="wt">Live site ↗</span></div>
+        <h3 class="work-title">Esriltor</h3><p class="work-desc">Estate agency site with listings, property pages and a sell journey.</p></a></article>
+      <article class="work-card"><a href="https://julieellis1.github.io/portfolio-demos/premier-hvac/" target="_blank" rel="noopener">
+        <div class="work-visual" style="background:linear-gradient(135deg,#ea580c,#431407)"><span class="wi">PH</span><span class="wt">Live site ↗</span></div>
+        <h3 class="work-title">Premier HVAC</h3><p class="work-desc">Las Vegas HVAC company site with booking widget and service pages.</p></a></article>
+      <article class="work-card"><a href="https://zoesmile.teta.dpdns.org" target="_blank" rel="noopener">
+        <div class="work-visual" style="background:linear-gradient(135deg,#0ea5e9,#0c2a4a)"><span class="wi">ZS</span><span class="wt">Live site ↗</span></div>
+        <h3 class="work-title">ZoeSmile</h3><p class="work-desc">Dental clinic platform with treatments, booking and patient info.</p></a></article>
+      <article class="work-card"><a href="https://julieellis1.github.io/portfolio-demos/voltedge/" target="_blank" rel="noopener">
+        <div class="work-visual" style="background:linear-gradient(135deg,#eab308,#422006)"><span class="wi">Vo</span><span class="wt">Live site ↗</span></div>
+        <h3 class="work-title">VoltEdge</h3><p class="work-desc">Electronics e-commerce demo with cart, checkout and 12 products.</p></a></article>
+    </div>
+    <div class="center reveal"><a class="btn" href="works.html">See more work</a></div>
+  </div>
+</section>
+
+<div class="statement reveal">
+  <div class="wrap"><p>I believe a website should earn its keep. Every project I ship is designed to be fast, clear and honest, so your business looks credible from the very first visit.</p></div>
+</div>
+
+<section class="cta-section" aria-label="Contact">
+  <div class="cta">
+    <div class="wrap">
+      <div class="cta-top reveal">
+        <img class="avatar" src="assets/img/portrait.jpg" alt="Adebiyi Thompson">
+        <div><div class="cta-name">Adebiyi Thompson</div><div class="cta-role">Web Designer &amp; App Developer</div></div>
+      </div>
+      <p class="cta-pitch reveal">Have a project in mind? Tell me about it and let's discuss how to bring it to life.</p>
+      <div class="cta-btns reveal">
+        <a class="btn btn-solid" href="mailto:hello@adebiyithompson.com">Contact Now <span>→</span></a>
+        <a class="btn btn-outline" href="mailto:hello@adebiyithompson.com?subject=Schedule%20a%20call">Schedule a call</a>
+      </div>
+      <h2 class="reveal">Let's build something remarkable together.</h2>
+      <p class="cta-sub reveal">Reach out today and let's start the conversation.</p>
+    </div>
+    <footer>
+      <div class="wrap">
+        <div class="foot-grid">
+          <div><div class="foot-label">Main Pages</div><ul class="foot-links"><li><a href="index.html">Home</a></li><li><a href="works.html">Work</a></li><li><a href="studio.html">Studio</a></li></ul></div>
+          <div><div class="foot-label">Contact</div><a class="foot-mail" href="mailto:hello@adebiyithompson.com">hello@adebiyithompson.com</a></div>
+          <div><div class="foot-label">Location</div><p style="font-size:17px">Lagos, Nigeria</p></div>
+        </div>
+        <div class="foot-base"><span>© <span id="year">2026</span> Adebiyi Thompson</span><span>Designed and built with care in Lagos</span></div>
+      </div>
+    </footer>
+  </div>
+</section>
 
 <script src="assets/js/main.js"></script>
+<script>
+// duplicate marquee content for a seamless loop
+(function(){var t=document.getElementById('logoTrack');if(t){t.innerHTML+=t.innerHTML;}})();
+</script>
 </body>
 </html>
