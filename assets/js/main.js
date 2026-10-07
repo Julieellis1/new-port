@@ -53,7 +53,9 @@
   }
   function splitWords(el, cls) {
     var out = [];
-    el.innerHTML.split(/(\s+)/).forEach(function (part) {
+    var html = el.innerHTML;
+    el.innerHTML = '';
+    html.split(/(\s+)/).forEach(function (part) {
       if (!part) return;
       if (/^\s+$/.test(part)) { el.appendChild(document.createTextNode(' ')); return; }
       var w = document.createElement('span'); w.className = 'word';

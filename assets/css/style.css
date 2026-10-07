@@ -367,11 +367,13 @@ footer{border-top:1px solid var(--line);padding:80px 0 34px;background:#080809}
 }
 @media(max-width:768px){
   .section{padding:90px 0}
-  .site-nav{top:12px;width:calc(100% - 24px);justify-content:space-between}
+  .site-nav{top:12px;width:calc(100% - 24px);justify-content:flex-start;gap:4px}
+  .site-nav .brand{font-size:14px;padding:8px 10px 8px 8px;white-space:nowrap}
+  .site-nav .nav-cta{margin-left:auto;padding:8px 14px;font-size:12.5px;white-space:nowrap}
   .site-nav .links{display:none;position:absolute;top:calc(100% + 10px);left:0;right:0;background:rgba(16,16,19,.96);border:1px solid var(--line);border-radius:20px;padding:12px;flex-direction:column;backdrop-filter:blur(18px)}
   .site-nav .links.open{display:flex}
   .site-nav a.nl{padding:14px 18px;font-size:15px}
-  .burger{display:flex;flex-direction:column;gap:5px;padding:12px}
+  .burger{display:flex;flex-direction:column;gap:5px;padding:10px}
   .burger span{width:22px;height:2px;background:var(--ink);display:block}
   .stats-grid{grid-template-columns:1fr}
   .price-grid{grid-template-columns:1fr}
